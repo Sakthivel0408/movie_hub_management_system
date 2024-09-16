@@ -48,14 +48,7 @@ The following are the source files for the application:
 
 These files are located in the `src/main/java/com/mycompany/movie_hub/` directory.
 
-### SQL Dump Files
 
-The following are the dump files in Oracle SQL:
-
-- `movie_hub_dump.dmp`
-- `quer_bulider.sql`
-
-These files are located in the 
 ## Database Schema
 
 The database schema is included as:
@@ -63,6 +56,12 @@ The database schema is included as:
 - `schema.pdf`
 
 These files contain the full layout of the Movie Hub Management System database.
+
+The following are the dump files in Oracle SQL:
+
+- `movie_hub_dump.dmp`
+- `quer_bulider.sql`
+
 
 ### Database Dump File
 
