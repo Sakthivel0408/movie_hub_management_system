@@ -60,7 +60,7 @@ These files contain the full layout of the Movie Hub Management System database.
 The following are the dump files in Oracle SQL:
 
 - `movie_hub_dump.dmp`
-- `quer_bulider.sql`
+- `database_export.sql`
 
 
 ### Database Dump File
@@ -69,14 +69,14 @@ The database dump, created using the `expdp` command, is included in the project
 
 ### Query Builder
 
-The `query_builder.sql` file contains all the necessary SQL queries for:
+The `database_export.sql` file contains all the necessary SQL queries for:
 - Creating tables
 - Inserting data
 - Setting constraints
 
 You can use this script to set up the database schema and populate it with initial data. To execute the SQL script, use the following command in your Oracle SQL*Plus or any other SQL execution tool:
 ```bash
-sqlplus movie_hub/password@localhost:1521/XEPDB1 @query_builder.sql
+sqlplus movie_hub/password@localhost:1521/XEPDB1 @database_export.sql
 ```
 
 ## How to Run the Application
